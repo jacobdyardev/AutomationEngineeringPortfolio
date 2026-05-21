@@ -34,3 +34,23 @@ Thumbs.db
 *.avi
 *.mkv
 
+
+# Runtime/generated artifacts
+artifacts/
+logs/
+downloads/
+output/
+outputs/
+tmp/
+temp/
+
+# Generated reports and data outputs
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Runtime metadata
+run_metadata.json
+*_metadata.json
+
