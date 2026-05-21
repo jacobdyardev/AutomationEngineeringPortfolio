@@ -1,0 +1,36 @@
+{
+  "name": "idealo_gpus",
+  "mode": "stealth",
+  "fallback_modes": ["stealth"],
+  "headless": false,
+
+  "render_wait": "[class*='productSummary__title']",
+
+  "rate_limit_delay": 1,
+  "rate_limit_jitter": 1,
+  "retry_attempts": 3,
+
+  "url": "https://www.idealo.co.uk/cat/16073I16-{offset}/graphics-cards.html",
+
+  "selector": "[class*='sr-resultItemTile']",
+
+  "cookies_file": "cookies/idealo.json",
+
+  "proxies": [],
+  "proxy_rotation": "random",
+
+  "fields": [
+    {
+      "name": "title",
+      "selector": "[class*='productSummary__title']",
+      "attribute": "text"
+    }
+  ],
+
+  "pagination": {
+    "type": "offset",
+    "start": 1,
+    "end": 2,
+    "step": 15
+  }
+}

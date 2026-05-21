@@ -1,0 +1,12 @@
+[project]
+name = "pdf_processor"
+version = "0.1.0"
+description = "PDF Intelligence Processor for Automation Toolkit"
+requires-python = ">=3.10"
+
+dependencies = [
+    "PyPDF2"
+]
+
+[tool.setuptools.packages.find]
+include = ["pdf_processor*"]

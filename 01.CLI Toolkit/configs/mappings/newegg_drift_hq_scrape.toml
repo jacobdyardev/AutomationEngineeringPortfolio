@@ -1,0 +1,43 @@
+[Newegg_Laptops]
+aliases = ["newegg_laptops"]
+
+title = "title"
+price = "price"
+url = "url"
+image_url = "image_url"
+
+[Newegg_GPUs]
+aliases = ["newegg_gpus"]
+
+title = "title"
+price = "price"
+promo = "promo"
+url = "url"
+image_url = "image_url"
+
+[drift_hq_exhaust]
+aliases = ["drift_hq_exhaust"]
+
+title = "title"
+price = "price"
+description = "description"
+url = "url"
+image_url = "image_url"
+
+[drift_hq_forced_induction]
+aliases = ["drift_hq_exhaust"]
+
+title = "title"
+price = "price"
+description = "description"
+url = "url"
+image_url = "image_url"
+
+[drift_hq_electronics]
+aliases = ["drift_hq_exhaust"]
+
+title = "title"
+price = "price"
+description = "description"
+url = "url"
+image_url = "image_url"

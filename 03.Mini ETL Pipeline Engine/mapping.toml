@@ -1,0 +1,30 @@
+[crypto_price]
+price_usd = "data.priceUsd"
+symbol = "data.symbol"
+name = "data.name"
+
+[ip_info]
+ip = "ip"
+city = "city"
+region = "region"
+country = "country_name"
+org = "org"
+
+[random_user]
+first_name = "results.0.name.first"
+last_name = "results.0.name.last"
+email = "results.0.email"
+country = "results.0.location.country"
+
+[joke]
+setup = "setup"
+punchline = "punchline"
+
+[cat_fact]
+fact = "fact"
+length = "length"
+
+[space_people]
+count = "number"
+first_person = "people.0.name"
+first_craft = "people.0.craft"

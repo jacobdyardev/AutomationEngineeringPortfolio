@@ -1,0 +1,23 @@
+{
+  "crypto_price": {
+    "url": "https://api.coincap.io/v2/assets/bitcoin"
+  },
+  "ip_info": {
+    "url": "https://ipapi.co/json/"
+  },
+  "random_user": {
+    "url": "https://randomuser.me/api/"
+  },
+  "joke": {
+    "url": "https://official-joke-api.appspot.com/random_joke"
+  },
+  "cat_fact": {
+    "url": "https://catfact.ninja/fact"
+  },
+  "bitcoin": {
+    "url": "https://api.coindesk.com/v1/bpi/currentprice.json"
+  },
+  "weather": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.75&longitude=-84.39&current_weather=true"
+  }
+}

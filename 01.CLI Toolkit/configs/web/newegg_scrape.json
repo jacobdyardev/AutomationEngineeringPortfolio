@@ -1,0 +1,94 @@
+{
+  "sites": [
+    {
+      "name": "newegg_laptops",
+      "mode": "static",
+      "fallback_modes": ["browser", "stealth"],
+      "headless": true,
+
+      "rate_limit_delay": 1,
+      "rate_limit_jitter": 1,
+      "retry_attempts": 3,
+
+      "url": "https://www.newegg.com/p/pl?N=100167732%20601470822&page={page}",
+
+      "selector": ".item-cell",
+
+      "fields": [
+        {
+          "name": "title",
+          "selector": ".item-title",
+          "attribute": "text"
+        },
+        {
+          "name": "url",
+          "selector": ".item-title",
+          "attribute": "href"
+        },
+        {
+          "name": "price",
+          "selector": ".price-current",
+          "attribute": "text"
+        },
+        {
+          "name": "image_url",
+          "selector": ".item-img img",
+          "attribute": ["src", "data-src"]
+        }
+      ],
+
+      "pagination": {
+        "type": "page",
+        "start": 1,
+        "end": 1
+      },
+
+      "dedupe_key": "url"
+    },
+    {
+      "name": "newegg_gpus",
+      "mode": "static",
+      "fallback_modes": ["browser", "stealth"],
+      "headless": true,
+
+      "rate_limit_delay": 0.5,
+      "rate_limit_jitter": 0.5,
+      "retry_attempts": 3,
+
+      "url": "https://www.newegg.com/p/pl?Order=3&N=100007709%20601469156%20601408872%20601357282%20601469155%20601410971%20601359511&page={page}",
+
+      "selector": ".item-cell",
+
+      "fields": [
+        {
+          "name": "title",
+          "selector": ".item-title",
+          "attribute": "text"
+        },
+        {
+          "name": "url",
+          "selector": ".item-title",
+          "attribute": "href"
+        },
+        {
+          "name": "price",
+          "selector": ".price-current",
+          "attribute": "text"
+        },
+        {
+          "name": "image_url",
+          "selector": ".item-img img",
+          "attribute": ["src", "data-src"]
+        }
+      ],
+
+      "pagination": {
+        "type": "page",
+        "start": 1,
+        "end": 1
+      },
+
+      "dedupe_key": "url"
+    }    
+  ]
+}

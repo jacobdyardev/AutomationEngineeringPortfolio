@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Build / artifacts
+build/
+dist/
+
+# Runtime artifacts
+artifacts/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+

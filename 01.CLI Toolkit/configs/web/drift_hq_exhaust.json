@@ -1,0 +1,56 @@
+{
+  "name": "drift_hq_exhaust",
+
+  "mode": "stealth",
+  "headless": false,
+
+  "url": "https://drifthq.com/collections/exhaust",
+
+  "render_wait": ".snize-product",
+
+  "selector": ".snize-product",
+
+  "fields": [
+    {
+      "name": "title",
+      "selector": ".snize-title",
+      "attribute": "text"
+    },
+    {
+      "name": "price",
+      "selector": ".snize-price.money",
+      "attribute": "text"
+    },
+    {
+      "name": "description",
+      "selector": ".snize-description",
+      "attribute": "text"
+    },
+    {
+      "name": "url",
+      "selector": "a.snize-view-link",
+      "attribute": "href"
+    },
+    {
+      "name": "image_url",
+      "selector": "img.snize-item-image",
+      "attribute": "src"
+    }                
+  ],
+
+  "pagination": {
+    "type": "page",
+    "start": 1,
+    "end": 25
+  },
+
+  "dedupe_key": "url",
+
+  "rate_limit_delay": 1,
+  "rate_limit_jitter": 1.5,
+  "retry_attempts": 3,
+
+  "simulate_user": true,
+
+  "fallback_modes": ["stealth"]
+}

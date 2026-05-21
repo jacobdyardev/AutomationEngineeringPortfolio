@@ -1,0 +1,27 @@
+{
+    "sites": [
+        {
+            "name": "upwork_debug",
+            "mode": "bota",
+            "fallback_modes": ["bota"],
+
+            "url": "https://www.upwork.com/nx/search/jobs/?q=python%20automation",
+
+            "selector": "article",
+
+            "fields": [
+                {
+                    "name": "raw_text",
+                    "selector": "article",
+                    "attribute": "text"
+                }
+            ],
+
+            "pagination": {
+                "type": "page",
+                "start": 1,
+                "end": 1
+            }
+        }
+    ]
+}

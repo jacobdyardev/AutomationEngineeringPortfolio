@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_inspector"
+version = "0.1.0"
+description = "Data inspection and rule evaluation plugin for Automation CLI"
+authors = [
+    { name = "Driftline Software" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]

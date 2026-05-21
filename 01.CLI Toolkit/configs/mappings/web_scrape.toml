@@ -1,0 +1,38 @@
+[hackernews]
+title = "title"
+url = "link"
+page_title = "page_title"
+detail_error = "detail_error"
+
+[github_trending]
+title = "repo"
+url = "link"
+page_title = "page_title"
+detail_error = "detail_error"
+
+[devto]
+title = "title"
+url = "link"
+page_title = "page_title"
+detail_error = "detail_error"
+
+[stackoverflow]
+title = "title"
+url = "link"
+page_title = "page_title"
+detail_error = "detail_error"
+
+[bbc]
+title = "title"
+
+[medium]
+title = "title"
+
+[indiehackers]
+title = "title"
+
+[lobsters]
+title = "title"
+url = "link"
+page_title = "page_title"
+detail_error = "detail_error"

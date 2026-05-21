@@ -1,0 +1,56 @@
+{
+  "name": "Bring_A_Trailer_Scrape",
+
+  "mode": "stealth",
+  "headless": false,
+
+  "url": "https://bringatrailer.com/auctions/",
+
+  "render_wait": ".listing-card .item-excerpt",
+
+  "selector": ".listing-card .item-excerpt",
+
+  "fields": [
+    {
+      "name": "title",
+      "selector": "h3[data-bind='html: title']",
+      "attribute": "text"
+    },
+    {
+      "name": "bid",
+      "selector": ".bid-formatted.bold",
+      "attribute": "text"
+    },
+    {
+      "name": "description",
+      "selector": ".item-excerpt",
+      "attribute": "text"
+    },
+    {
+      "name": "url",
+      "selector": "a.listing-card.bg-white-transparent",
+      "attribute": "href"
+    },
+    {
+      "name": "image_url",
+      "selector": "img[data-bind*='thumbnailUrl']",
+      "attribute": "src"
+    }               
+  ],
+
+  "pagination": {
+    "type": "page",
+    "start": 1,
+    "end": 1
+  },
+
+  "dedupe_key": "url",
+
+  "rate_limit_delay": 1,
+  "rate_limit_jitter": 1.5,
+  "retry_attempts": 3,
+
+  "simulate_user": true,
+
+  "fallback_modes": ["stealth"]
+}

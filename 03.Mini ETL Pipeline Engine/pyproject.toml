@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini_etl"
+version = "0.1.0"
+description = "Mini ETL pipeline engine for Automation CLI"
+authors = [
+    { name = "Driftline Software" }
+]
+dependencies = [
+    "toml"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

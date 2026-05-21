@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk_kpi"
+version = "0.1.0"
+description = "Risk KPI Automation Engine plugin"
+authors = [
+    { name = "Your Name" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["risk_kpi*"]

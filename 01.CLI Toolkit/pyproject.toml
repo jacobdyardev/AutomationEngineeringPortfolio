@@ -1,0 +1,18 @@
+[project]
+name = "automation-toolkit"
+version = "0.1.0"
+description = "CLI Automation Toolkit"
+requires-python = ">=3.10"
+
+dependencies = [
+    "typer",
+    "aiohttp"
+]
+
+[project.scripts]
+automation = "automation.cli.main:app"
+auto = "automation.cli.main:app"
+
+[tool.setuptools.packages.find]
+include = ["automation*"]
+exclude = ["artifacts*"]

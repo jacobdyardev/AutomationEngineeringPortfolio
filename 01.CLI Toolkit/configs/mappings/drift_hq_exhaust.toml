@@ -1,0 +1,8 @@
+[drift_hq_exhaust]
+aliases = ["drift_hq_exhaust"]
+
+title = "title"
+price = "price"
+description = "description"
+url = "url"
+image_url = "image_url"

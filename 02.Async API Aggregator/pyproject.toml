@@ -1,0 +1,10 @@
+[project]
+name = "async-api-aggregator"
+version = "0.1.0"
+dependencies = [
+    "aiohttp"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,5 @@
+[idealo_gpus]
+aliases = ["idealo_gpus"]
+
+title = "title"
+price = "offerId"

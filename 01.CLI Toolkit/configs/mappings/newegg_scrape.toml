@@ -1,0 +1,20 @@
+[Newegg_Laptops]
+aliases = ["newegg_laptops"]
+
+title = "title"
+url = "url"
+price = "price"
+image_url = "image_url"
+product_description = "product_description"
+category = "category"
+
+
+[Newegg_GPUs]
+aliases = ["newegg_gpus"]
+
+title = "title"
+url = "url"
+price = "price"
+image_url = "image_url"
+product_description = "product_description"
+category = "category"

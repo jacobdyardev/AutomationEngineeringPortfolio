@@ -1,0 +1,10 @@
+[project]
+name = "excel_kpi"
+version = "0.1.0"
+dependencies = [
+    "openpyxl"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
