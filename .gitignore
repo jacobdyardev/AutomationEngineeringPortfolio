@@ -27,3 +27,10 @@ logs/
 .DS_Store
 Thumbs.db
 
+
+# Large media/demo files
+*.mov
+*.mp4
+*.avi
+*.mkv
+
