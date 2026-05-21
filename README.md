@@ -350,3 +350,8 @@ The CLI supports:
 ## Example Execution
 
 auto run pipeline_runner -p "steps=api_aggregator|mini_etl|excel_kpi,apis_file=ExampleAPI.json,mapping_file=mapping.toml,output_format=excel,output_mode=grouped"
+
+
+## Status
+
+Functional implementation / active development
