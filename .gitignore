@@ -54,3 +54,7 @@ temp/
 run_metadata.json
 *_metadata.json
 
+
+# Generated HTML artifacts
+*.html
+
